@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>understanding Origin conflicts</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		p{
+			color: orange;
+		}
+	</style>
+</head>
+<body>
+	<h1>Origin resolutions</h1>
+	<section>
+		<h2>SubHeading S1</h2>
+		<p>CSS will be applied as a last declarions which is orange color even though if u have applied blue color in the external file as the last declarion will take precedenace .This is the best example to demo</p>
+		<p style="color: black;">CSS will be applied as a last declarions which is black color even though if u have applied blue color in the external file and in internal font color as orange as the last declarion will take precedenace .This is the best example to demo</p>
+	</section>
+</body>
+</html>
